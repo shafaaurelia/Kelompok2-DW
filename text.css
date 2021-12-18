@@ -1,0 +1,635 @@
+
+  body{
+    background-color: whitesmoke;
+  }
+  .navbar-nav{
+      font-size: 13px;
+  }
+  .dropdown-menu{
+      font-size: 13px;
+  }
+  li a:hover, .dropdown:hover .dropbtn {
+      background-color: rgb(102, 97, 73);
+  }
+  .dropdown-menu a {
+    padding: 12px 16px;
+    display: block;
+    cursor: pointer;
+  }
+  .dropdown-menu a:hover {
+    background-color: rgb(126, 120, 89);
+  }
+  .btn-login{
+    background-color:transparent;
+    color: white;
+    border: 2px solid whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  .banner-image{
+    background-position: center;
+    background-size: cover;
+  }
+  .banner-desc{
+      margin: 60%;
+      font-size: 50px;
+      color: whitesmoke;
+      text-shadow: 1px -1px black;
+      word-spacing: 2px;
+      letter-spacing: 3px;
+  }
+  .btn-banner{
+      text-shadow: none;
+      font-family:Arial, Helvetica, sans-serif;
+      letter-spacing: normal;
+  }
+  .banner-desc a:hover{
+    opacity: 0.8;
+  }
+  .bcs-content-desc{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .courses-card a:hover {
+      opacity: 0.7;
+  }
+  .carousel-item{
+      max-width: 100%;
+      height: auto;
+      padding: 10px 70px;
+  }
+  .fa {
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .socmed-logo a:hover{
+    opacity: 0.5;
+  }
+  .socmed-logo a{
+    text-decoration: none;
+  }
+  .footer-bottom{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .fa-title{
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  .fa-desc{
+    font-size: 14px;
+  }
+  
+  @media (max-width: 767px){
+  .footer-content{
+    text-align: center;
+  }
+  }
+  @media (max-width: 767px){
+ 
+  .carousel-item{
+    padding: 10px 20px;
+  }
+}
+  
+  #gallery-about{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  @media (max-width: 767px){
+ 
+    .about-content .carousel-item{
+      padding: 10px 20px;
+    }
+  }
+  .login-title{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+  }
+  @media (max-width: 991px){
+    .login-title{
+      text-align: start;
+      margin-left: 0;
+      margin-top: 0;
+      border-radius: 0;
+      border-style: none;
+    }
+  }
+  *{
+    box-sizing: border-box;
+  }
+.course-content-desc{
+    background-color: rgb(134, 112, 71);
+    padding: 30px 15px;
+    width: 700px;
+    max-width: 100%;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.course-content-desc a:hover{
+    opacity: 0.8;
+}
+.course-title{
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.course-desc{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.menu-title{
+    text-align: center;
+    margin-top: 50px;
+}
+.course-selection-title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.course-menu img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.menu-desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.course-content {
+    margin-top: 20px;
+}
+.pagnav-bakery-pastry a:hover{
+   background-color: rgb(124, 113, 77);
+   color: white;
+}
+.page-item a{
+    background-color: whitesmoke;
+    color: black;
+}
+.lesson-selection{
+    border-radius: 5px;
+    background-color: rgb(124, 113, 77);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.selection-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.btn-price{
+  background-color: black;
+  border: none;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
+.btn-price:hover{
+  background-color: rgb(138, 130, 107);
+  box-shadow: none;
+}
+.price-desc{
+  font-size: 14px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+	
+}
+.form-pendaftaran {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:rgb(165, 164, 164);
+	background:#fff4f4;
+    background-image: url(assets/2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.form-pendaftaran-inner {
+	max-width:450px;
+	width:100%;
+	margin:0px auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="password"], #contact input[type="tel"], #contact input[type="url"], #contact textarea,#contact input[type="date"], #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:25px;
+	margin-top: 70px;
+    margin-bottom: -49px;
+}
+
+#contact h3 {
+    text-align: center;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="password"], #contact input[type="tel"],#contact input[type="date"], #contact textarea {
+	width:100%;
+	border:1.5px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="password"]:hover, #contact input[type="tel"]:hover, #contact input[type="date"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:rgb(95, 95, 95);
+	color:#FFF;
+	margin:1 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:rgb(126, 126, 126);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+.body-regist-from{
+  background-image: url(assets/1.jpg);
+  background-size: 100%;
+}
+
+.registration-form{
+  padding: 50px 0;
+}
+
+.registration-form form{
+  background :rgba(0, 0, 0, 0.5);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px 50px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+}
+
+.registration-form .form-icon{
+  text-align: center;
+  background-image: url(assets/logo-transparent.png);
+  background-size: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 50px;
+  line-height: 100px;
+}
+
+.registration-form .item{
+border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  font-size: small;
+}
+
+.registration-form .create-account{
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #919191a2;
+  border: none;
+  color: white;
+  margin-top: 20px;
+}
+.form-text{
+  color: white;
+}
+.registration-form button:hover{
+  background-color: black;
+  opacity: 0.7;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+.body-about {
+  background-color: whitesmoke;
+  
+}
+
+.about-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-title{
+  font-size: 25px;
+}
+
+.aboutus-title{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.aboutus-desc{
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-content .row .card {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.about-content .row .card .card-body {
+  padding: 1rem 1.2rem;
+  color: rgb(0, 0, 0);
+}
+
+.about-content .row .card .card-body .card-img img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  transform: translateY(50px);
+  transition: 0.5s;
+  border-radius: 50%;
+}
+
+.about-content .row .card .card-body .name {
+  transform: translateY(50px);
+  transition: 0.5s;
+}
+
+.about-content .row .card .card-body .testimonial {
+  font-size: 0.9rem;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.about-content .row .card:hover .card-body .testimonial,
+.about-content .row .card:hover .card-body .name,
+.about-content .row .card:hover .card-body .card-img img {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+@media (max-width: 991.5px) {
+  .body-section-about:after {
+    clip-path: circle(40% at 10% 50%);
+  }
+
+.body-section-about:before {
+    clip-path: circle(50% at right -10%);
+  }
+}
+.contact-body{
+  background-color: whitesmoke;
+}
+.contact-title{
+  margin-top: 120px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(48, 46, 46);
+ 
+}
+.container .contact-content{
+  margin-top: auto;
+  padding-top: 20px;
+}
+.contact-desc{
+  color: rgb(48, 46, 46);
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 15px;
+}
+.contact-card{
+  background-color: transparent;
+  border:none;
+}
+.contact-card img:hover{
+  opacity: 0.7;
+}
+.form-booking{
+  background-color: beige;
+  background-image: url(assets/gambar8.jpg);
+}
+.form-booking .form-container{
+  color: #000;
+  overflow-x: hidden;
+  height: 100%;
+  margin-top: 120px;
+}
+.form-booking button:hover{
+  opacity: 0.7;
+  background-color: #1d1c1c;
+}
+.form-booking .card {
+  background-color: rgba(255, 251, 251, 0.692);
+  padding: 30px 40px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  border: none !important;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-booking .blue-text {
+  color: #00BCD4
+}
+
+.form-booking .form-control-label {
+  margin-bottom: 0;
+}
+
+.form-booking input,
+.form-booking textarea,
+.form-booking button {
+  padding: 6px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 18px !important;
+  font-weight: 300;
+}
+
+.form-booking input:focus,
+.form-booking textarea:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #00BCD4;
+  outline-width: 0;
+  font-weight: 400;
+}
+
+.form-booking fieldset{
+  font-size: 18px;
+}
+
+.form-booking select{
+  padding: 8px 15px;
+  font-size: 18px;
+  margin: 8px 0px;  
+}
+
+.form-booking .btn-block a{
+  text-decoration: none;
+  font-size: 15px !important;
+  font-weight: 400;
+  height: 43px;
+  cursor: pointer
+}
+
+.form-booking .btn-block a:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.form-booking button:focus {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0;
+}
+
+.Instructors{
+  background-color: whitesmoke;
+  background-size: cover;
+}
+
+.instructor-section{
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.instructor-section .card{
+  background-color: rgb(134, 125, 96);
+  padding: 5px 10px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  border: none !important;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+  position:relative;
+  display: block;
+  margin: auto;
+}
+.instructor-section img{
+  border-radius: 50px;
+  padding: 10px;
+}
+.instructor-section h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(34, 33, 31);
+    
+    
+}
+.instructor-section h5{
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.instructor-section p{
+  font-size: 17px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
